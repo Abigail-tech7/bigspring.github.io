@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bigspring</title>
+    <!-- slide -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+    />
+    <!-- css link -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- font -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ----------------------- header--------------------------- -->
+    <header>
+      <div class="nav-containner">
+        <!-- -------------------navigation bar ---------------- -->
+        <nav class="top-bar flex">
+          <!-- <div class ="flex-row"></div> -->
+          <!-- logo  -->
+          <div class="logo-container flex">
+            <a href="#"><img src="Asset/bigspring.webp" alt="logo" /></a>
+            <div class="sub-menuTopBar flex">
+              <!-- language menu -->
+              <select name="Language" id="lang">
+                <option value="English" selected>EN</option>
+                <option value="France">FR</option>
+                <option value="Chainess">CN</option>
+              </select>
+              <!-- menu -->
+              <div class="menu-containner"><i class="bx bx-menu"></i></div>
+              <!-- mode btn -->
+              <div class="mode-btn"><i class="bx bx-moon"></i></div>
+            </div>
+          </div>
+          <div class="main-menuContainer">
+            <ul class="menuLinks-container">
+              <li class="menuLink"><a href="#" class="link active">Home</a></li>
+
+              <li class="menuLink">
+                <a href="#" class="link"
+                  >Company<i class="bx bx-chevron-down"></i
+                ></a>
+                <ul class="subMenuLinks hidden">
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="team.html">Team</a></li>
+                  <li><a href="how-it-works.html">How It Works</a></li>
+                  <li><a href="career.html">Career</a></li>
+              
+                </ul>
+              </li>
+
+              <li class="menuLink">
+                <a href="#" class="link">
+                  Products <i class="bx bx-chevron-down"></i
+                ></a>
+                <ul class="subMenuLinks hidden">
+                  <li>
+                    <a href="#" class="produtslink crm">
+                      <div class="icon"><i class="bx bxs-group"></i></div>
+                      <div class="info">
+                        <p class="productName">CRM</p>
+                        <p class="productInfo">
+                          convert leads and close sales deals faster
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="produtslink help-desk">
+                      <div class="icon"><i class="bx bxs-cube-alt"></i></div>
+                      <div class="info">
+                        <p class="productName">Help Desk</p>
+                        <p class="productInfo">
+                          convert leads and close sales deals faster
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="produtslink work-place">
+                      <div class="icon">
+                        <i class="bx bxs-briefcase-alt-2"></i>
+                      </div>
+                      <div class="info">
+                        <p class="productName">Workplace</p>
+                        <p class="productInfo">
+                          Application built to improve productivity
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="produtslink analytic">
+                      <div class="icon"><i class="bx bx-line-chart"></i></div>
+                      <div class="info">
+                        <p class="productName">Analytics</p>
+                        <p class="productInfo">
+                          Create custom reposts from any data set.
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="produtslink">
+                      <div class="icon arrow">
+                        <i class="bx bx-right-arrow-alt"></i>
+                      </div>
+                      <p class="productName">View all Product</p>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="menuLink">
+                <a href="price.html" class="link"
+                  >Price</a>
+                
+              </li>
+
+              <li class="menuLink"><a href="contactUs.html" class="link">Contact</a></li>
+            </ul>
+            <div class="flex">
+              <select name="Language" id="lang" class="hidden">
+                <option value="English" selected>EN</option>
+                <option value="France">FR</option>
+                <option value="Chainess">CN</option>
+              </select>
+              <button class="demoBtn">Get a Demo</button>
+              <div class="mode-btn hidden btn"><i class="bx bx-moon"></i></div>
+            </div>
+          </div>
+        </nav>
+        <!-- *-------------------navigation bar ----------------* -->
+      </div>
+    </header>
+    <!-- *----------------------- header end---------------------------* -->
+    <!-- ----------------------------main------------------------------- -->
+    <main>
+      <section class="intro-section">
+        <h1 class="motto">
+          Let us solve your critical website development challenges
+        </h1>
+        <h4>
+          Create a best strategic tool, share it with your team and ensure it's
+          on track with intuitive dashboards.
+          <br />
+          Simple enough with the sophistication and flexibility to meet the
+          needs of large enterprises
+        </h4>
+        <a href="get_Started.html"><div class="startBtn btn">Get started for Free</div></a>
+        
+        <img class="team-img" src="Asset/banner-art.svg" alt="" />
+        <p>The best customer experiences are built with Bigspring</p>
+        <!-- slider container -->
+        <div class="silder-container">
+          <div class="slider logo-slider">
+            <div class="slider-item">
+              <img src="Asset/airbnb-ar21.svg" alt="" />
+            </div>
+            <div class="slider-item">
+              <img src="Asset/facebook-ar21.svg" alt="" />
+            </div>
+            <div class="slider-item">
+              <img src="Asset/hubspot-ar21.svg" alt="" />
+            </div>
+            <div class="slider-item">
+              <img src="Asset/mongodb-ar21.svg" alt="" />
+            </div>
+            <div class="slider-item">
+              <img src="Asset/apple-ar21.svg" alt="" />
+            </div>
+            <div class="slider-item">
+              <img src="Asset/toyota-ar21.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ----------------------------Service section-------------------- -->
+      <section class="service-section">
+        <div class="service-textContainer">
+          <h2>The ultimate platform for creating, sharing, and executing.</h2>
+          <p>
+            We are helping thousands of organizations run their business
+            strategies and achieve their ambitious results! We make big plans
+            happen.
+          </p>
+          <a href="get_Started.html"><div class="try-freeBtn">Try for Free</div></a>
+      
+        </div>
+        <!-- service cards -->
+        <div class="card-container">
+          <!-- cloud card -->
+          <article class="card">
+            <i class="bx bx-cloud"></i>
+            <div class="service-typeContainer">
+              <h3>Cloud Support</h3>
+              <p>
+                Fugiat similique nobis porro cumque stinctio iusto quaerat
+                corrupti.
+              </p>
+            </div>
+          </article>
+          <!-- object card -->
+          <article class="card">
+            <i class="bx bx-target-lock"></i>
+            <div class="service-typeContainer">
+              <h3>Object Oriented</h3>
+              <p>
+                Fugiat similique nobis porro cumque stinctio iusto quaerat
+                corrupti.
+              </p>
+            </div>
+          </article>
+          <!-- 24hr card -->
+          <article class="card">
+            <i class="bx bx-headphone"></i>
+            <div class="service-typeContainer">
+              <h3>24h Service</h3>
+              <p>
+                Fugiat similique nobis porro cumque stinctio iusto quaerat
+                corrupti.
+              </p>
+            </div>
+          </article>
+          <!-- response card -->
+          <article class="card">
+            <i class="bx bx-like"></i>
+            <div class="service-typeContainer">
+              <h3>Faster Response</h3>
+              <p>
+                Fugiat similique nobis porro cumque stinctio iusto quaerat
+                corrupti.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <!-- video section  -->
+      <section class="video-section">
+        <h2>Built exclusively for you</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas
+          Werat viverra id et aliquet. vulputate egestas sollicitudin.
+        </p>
+        <div class="video-container">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/dyZcRRWiuuw"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+      <section class="marketing-section">
+        <article class="img-container">
+          <div class="marketSlider slick-slider">
+            <div class="img-sliders slide">
+              <div class="slider-item">
+                <img src="Asset/income.webp" alt="" />
+              </div>
+              <div class="slider-item">
+                <img src="Asset/revenue.webp" alt="" />
+              </div>
+              <div class="slider-item">
+                <img src="Asset/chart.webp" alt="" />
+              </div>
+            </div>
+          </div>
+          <!-- <label for="html">HTML</label><br> -->
+          <!-- <div class="radio-btns">
+            <input
+              type="radio"
+              name="showImg"
+              class="imgRadioBtn"
+              id="img1"
+              value="img-position1"
+            />
+            <input
+              type="radio"
+              name="showImg"
+              class="imgRadioBtn"
+              id="img2"
+              value="img-position2"
+            />
+            <input
+              type="radio"
+              name="showImg"
+              class="imgRadioBtn"
+              id="img3"
+              value="img-position3"
+            />
+          </div> -->
+        </article>
+        <article class="text-container">
+          <h2>
+            It's a team of experienced and skilled people with distributions
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat
+            tristique eget amet, tempus eu at consecttur. Leo facilisi nunc
+            viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing
+            elit. Consequat tristique eget amet, tempus eu at consecttur. Leo
+            facilisi nunc viverra tellus. Ac laoreet sit vel consquat.
+          </p>
+        </article>
+      </section>
+      <!--  -->
+      <section class="section1">
+        <div class="img-content">
+          <img src="Asset/income.webp" alt="" />
+        </div>
+        <div class="text-container">
+          <h2>
+            It is a privately owned Information and cyber security company
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat
+            tristique eget amet, tempus eu at consecttur. Leo facilisi nunc
+            viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing
+            elit. Consequat tristique eget amet, tempus eu at consecttur. Leo
+            facilisi nunc viverra tellus. Ac laoreet sit vel consquat.
+          </p>
+        </div>
+      </section>
+      <section class="section1 reverseSection">
+        <div class="img-content">
+          <img src="Asset/revenue.webp" alt="" />
+        </div>
+        <div class="text-container">
+          <h2>
+            It’s a team of experienced and skilled people with distributions
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat
+            tristique eget amet, tempus eu at consecttur. Leo facilisi nunc
+            viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing
+            elit. Consequat tristique eget amet, tempus eu at consecttur. Leo
+            facilisi nunc viverra tellus. Ac laoreet sit vel consquat.
+          </p>
+        </div>
+      </section>
+      <section class="section1">
+        <div class="img-content">
+          <img src="Asset/chart.webp" alt="" />
+        </div>
+        <div class="text-container">
+          <h2>A company standing different from others</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat
+            tristique eget amet, tempus eu at consecttur. Leo facilisi nunc
+            viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing
+            elit. Consequat tristique eget amet, tempus eu at consecttur. Leo
+            facilisi nunc viverra tellus. Ac laoreet sit vel consquat.
+          </p>
+        </div>
+      </section>
+      <section class="teamwork_section">
+        <h2>Trusted by those you trust</h2>
+        <p class="intro-teamwork">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas
+          Werat viverra id et aliquet. vulputate egestas sollicitudin.
+        </p>
+        <div class="worksSlider-container">
+          <div class="worksSlider">
+            <div class="works">
+              <p>
+                Conseetur adipiscing elit. Ornare quam porta arcu congue felis
+                volutpat. Vitae lectudbfs pellentesque vitae dolor faucibus
+              </p>
+
+              <img class="worker_pic" src="Asset/worker1.webp" alt="" />
+
+              <p class="worker_name">David Cameron</p>
+              <p class="worker_job">CEO, Nexuspay</p>
+            </div>
+            <div class="works">
+              <p>
+                Conseetur adipiscing elit. Ornare quam porta arcu congue felis
+                volutpat. Vitae lectudbfs pellentesque vitae dolor faucibus
+              </p>
+
+              <img class="worker_pic" src="Asset/worker2.webp" alt="" />
+
+              <p class="worker_name">David Cameron</p>
+              <p class="worker_job">CEO, Nexuspay</p>
+            </div>
+            <div class="works">
+              <p>
+                Conseetur adipiscing elit. Ornare quam porta arcu congue felis
+                volutpat. Vitae lectudbfs pellentesque vitae dolor faucibus
+              </p>
+
+              <img class="worker_pic" src="Asset/worker3.webp" alt="" />
+
+              <p class="worker_name">David Cameron</p>
+              <p class="worker_job">CEO, Nexuspay</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--  -->
+      <section class="integrate-tool">
+        <h2>Integrate with all the tools your teams love using</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint aliquam praesentium animi veritatis, doloribus officiis soluta iure mollitia, distinctio temporibus culpa vitae unde maiores quas asperiores amet placeat id. Laudantium?</p>
+        <article class="tools-used">
+          <div class="logo-container">
+            <img src="Asset/slack.webp" alt="slack logo">
+          </div>
+          <div class="logo-container">
+            <img src="Asset/spotify.webp" alt="slack logo">
+          </div>
+          <div class="logo-container">
+            <img src="Asset/trello.webp" alt="slack logo">
+          </div>
+          <div class="logo-container">
+            <img src="Asset/google_analytic.webp" alt="slack logo">
+          </div>
+          <div class="logo-container">
+            <img src="Asset/asana.webp" alt="slack logo">
+          </div>
+          <div class="logo-container">
+            <img src="Asset/jira.webp" alt="slack logo">
+          </div>
+          <div class="logo-container">
+            <img src="Asset/salesforce.webp" alt="slack logo">
+          </div>
+          <div class="logo-container">
+            <img src="Asset/suite.webp" alt="slack logo">
+          </div>
+          <div class="logo-container">
+            <img src="Asset/google_sheets.webp" alt="slack logo">
+          </div>
+        </article>
+        <img class="collabrationImg" src="Asset/team-working img.svg" alt="">
+      </section>
+      <section class="contact-us-section">
+        <h2>Ready to get started?</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat eget amtempus eu at consecttur.</p>
+        <a href="contactUs.html"><div class="contactbtn btns">Contact Us</div></a>
+      </section>
+    </main>
+    <!--  --------------------------------Footer-------------------------------  -->
+    <footer>
+      <section class="footer">
+        <article class="footer-link-containner">
+          <h5>Company</h5>
+          <ul class="footer-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="how-it-works.html">How It Works</a></li>
+            <li><a href="career.html">Career</a></li>
+
+            
+          </ul>
+        </article>
+        <article class="footer-link-containner">
+          <h5>Products</h5>
+          <ul class="footer-links">
+            <li><a href="#">CRM</a></li>
+            <li><a href="#">Help Desk</a></li>
+            <li><a href="#">Workplace</a></li>
+            <li><a href="#">Analytics</a></li>
+
+            
+          </ul>
+        </article>
+        <article class="footer-link-containner">
+          <h5>Support</h5>
+          <ul class="footer-links">
+            <li><a href="price.html#FAQ">FAQ</a></li>
+            <li><a href="contactUs.html">Contact</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms ＆ Conditions</a></li>
+          </ul>
+        </article>
+        <article class="footer-link-containner">
+          <a href="#"class="company-logo"><img src="Asset/bigspring.webp" alt="company logo"></a>
+          
+          <p>Lorem ipsum dolor sit amet, consectetur elit consjat tristique eget amet.</p>
+          <div class="social-container">
+            <div class="logo-cirle">
+              <a href="#"><i class='bx bxl-facebook-circle' ></i></a>
+            </div>
+            <div class="logo-cirle">
+              <a href="#"><i class='bx bxl-twitter' ></i></a>
+              
+            </div>
+            <div class="logo-cirle">
+              <a href="#"><i class='bx bxl-instagram' ></i></a>
+              
+            </div>
+            <div class="logo-cirle">
+              <a href="#"><i class='bx bxl-github'></i></a>
+              
+            </div>
+            <div class="logo-cirle">
+              <a href="#"><i class='bx bxl-linkedin-square' ></i></a>
+             
+            </div>
+          </div>
+        </article>
+      </section>
+      <p class="copyright-text">Copyright by your company | Theme by <a href="#">GetHugoThemes</a>
+        </p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="js/app.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    ></script>
+    <script src="js/slick.js"></script>
+    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script> -->
+  </body>
+</html>

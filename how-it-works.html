@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bigspring</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- font -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ----------------------- header--------------------------- -->
+    <header>
+      <div class="nav-containner">
+        <!-- -------------------navigation bar ---------------- -->
+        <nav class="top-bar flex">
+          <!-- <div class ="flex-row"></div> -->
+          <!-- logo  -->
+          <div class="logo-container flex">
+            <a href="#"><img src="Asset/bigspring.webp" alt="logo" /></a>
+            <div class="sub-menuTopBar flex">
+              <!-- language menu -->
+              <select name="Language" id="lang">
+                <option value="English" selected>EN</option>
+                <option value="France">FR</option>
+                <option value="Chainess">CN</option>
+              </select>
+              <!-- menu -->
+              <div class="menu-containner"><i class="bx bx-menu"></i></div>
+              <!-- mode btn -->
+              <div class="mode-btn"><i class="bx bx-moon"></i></div>
+            </div>
+          </div>
+          <div class="main-menuContainer">
+            <ul class="menuLinks-container">
+              <li class="menuLink">
+                <a href="index.html" class="link">Home</a>
+              </li>
+
+              <li class="menuLink">
+                <a href="#" class="link active"
+                  >Company<i class="bx bx-chevron-down"></i
+                ></a>
+                <ul class="subMenuLinks hidden">
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="team.html">Team</a></li>
+                  <li><a class="active" href="#">How It Works</a></li>
+                  <li><a href="career.html">Career</a></li>
+                </ul>
+              </li>
+
+              <li class="menuLink">
+                <a href="#" class="link">
+                  Products <i class="bx bx-chevron-down"></i
+                ></a>
+                <ul class="subMenuLinks hidden">
+                  <li>
+                    <a href="#" class="produtslink crm">
+                      <div class="icon"><i class="bx bxs-group"></i></div>
+                      <div class="info">
+                        <p class="productName">CRM</p>
+                        <p class="productInfo">
+                          convert leads and close sales deals faster
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="produtslink help-desk">
+                      <div class="icon"><i class="bx bxs-cube-alt"></i></div>
+                      <div class="info">
+                        <p class="productName">Help Desk</p>
+                        <p class="productInfo">
+                          convert leads and close sales deals faster
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="produtslink work-place">
+                      <div class="icon">
+                        <i class="bx bxs-briefcase-alt-2"></i>
+                      </div>
+                      <div class="info">
+                        <p class="productName">Workplace</p>
+                        <p class="productInfo">
+                          Application built to improve productivity
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="produtslink analytic">
+                      <div class="icon"><i class="bx bx-line-chart"></i></div>
+                      <div class="info">
+                        <p class="productName">Analytics</p>
+                        <p class="productInfo">
+                          Create custom reposts from any data set.
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="produtslink">
+                      <div class="icon arrow">
+                        <i class="bx bx-right-arrow-alt"></i>
+                      </div>
+                      <p class="productName">View all Product</p>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="menuLink">
+                <a href="#" class="link"
+                  >Price</a>
+               
+              </li>
+
+              <li class="menuLink">
+                <a href="contactUs.html" class="link">Contact</a>
+              </li>
+            </ul>
+            <div class="flex">
+              <select name="Language" id="lang" class="hidden">
+                <option value="English" selected>EN</option>
+                <option value="France">FR</option>
+                <option value="Chainess">CN</option>
+              </select>
+              <button class="demoBtn">Get a Demo</button>
+              <div class="mode-btn hidden btn"><i class="bx bx-moon"></i></div>
+            </div>
+          </div>
+        </nav>
+        <!-- *-------------------navigation bar ----------------* -->
+      </div>
+    </header>
+    <!-- *----------------------- header end---------------------------* -->
+    <!-- *----------------------------main------------------------------- -->
+    <main>
+      <section class="topContainer">
+        <section class="howItWork-topSection">
+          <article class="intro-section">
+            <h2>Your Partner for the best Software Innovation</h2>
+            <p>
+              Create a best strategic tool, share it with your team and ensure
+              it’s on track with intuitive dashboards. Simple enough with the
+              sophistication and flexibility to meet the needs
+            </p>
+            <a href="contactUs.html"
+              ><div class="startBtn btn">Get started for Free</div></a
+            >
+          </article>
+          <article class="img-container">
+            <img src="Asset/howItWork-topImg.svg" alt="" />
+          </article>
+        </section>
+      </section>
+      <!-- exclusively section -->
+      <section class="exclusively-section">
+        <h3>Built exclusively for you</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas
+          Werat viverra id et aliquet. vulputate egestas sollicitudin.
+        </p>
+        <div class="video-container">
+          <div class="play-btn">
+            <div class="btn-container">
+              <i class="bx bx-play"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- article section -->
+      <section class="howItWork-articles">
+        <article class="colored ">
+          <div class="article-content">
+            <div class="img-container">
+              <img
+                src="https://demo.gethugothemes.com/bigspring/site/images/how-it-works/01_hu062e011182401da793f56f5d346a7686_60205_545x0_resize_q100_h2_box.webp"
+                alt=""
+              />
+            </div>
+
+            <div class="text-content">
+              <h3>
+                It is the most advanced <br />
+                digital database tool.
+              </h3>
+              <p>
+                Adipiscing elit Consequat tristique eget amet, tempus eu at
+                consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel
+                consquat. consectetur adipiscing elit tempus eu at consecttur.
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="article">
+          <div class="article-content">
+            <div class="img-container">
+              <img
+                src="https://demo.gethugothemes.com/bigspring/site/images/how-it-works/02_hu07e749867b8df83b9c5198464adab88a_50156_1110x0_resize_q100_h2_box.webp"
+                alt=""
+              />
+            </div>
+
+            <div class="text-content">
+              <h3>
+                It is the most advanced <br />
+                digital database tool.
+              </h3>
+              <p>
+                Adipiscing elit Consequat tristique eget amet, tempus eu at
+                consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel
+                consquat. consectetur adipiscing elit tempus eu at consecttur.
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="colored ">
+          <div class="article-content">
+            <div class="img-container">
+              <img
+                src="https://demo.gethugothemes.com/bigspring/site/images/how-it-works/01_hu062e011182401da793f56f5d346a7686_60205_545x0_resize_q100_h2_box.webp"
+                alt=""
+              />
+            </div>
+
+            <div class="text-content">
+              <h3>
+                It is the most advanced <br />
+                digital database tool.
+              </h3>
+              <p>
+                Adipiscing elit Consequat tristique eget amet, tempus eu at
+                consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel
+                consquat. consectetur adipiscing elit tempus eu at consecttur.
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="article">
+          <div class="article-content">
+            <div class="img-container">
+              <img
+                src="https://demo.gethugothemes.com/bigspring/site/images/how-it-works/04_hu70c85f190f59d9425c5a1efe375b83b1_65250_1110x0_resize_q100_h2_box.webp"
+                alt=""
+              />
+            </div>
+
+            <div class="text-content">
+              <h3>
+                It is the most advanced <br />
+                digital database tool.
+              </h3>
+              <p>
+                Adipiscing elit Consequat tristique eget amet, tempus eu at
+                consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel
+                consquat. consectetur adipiscing elit tempus eu at consecttur.
+              </p>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+ <!--  --------------------------------Footer-------------------------------  -->
+ <footer>
+  <section class="footer">
+    <article class="footer-link-containner">
+      <h5>Company</h5>
+      <ul class="footer-links">
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="#">How It Works</a></li>
+        <li><a href="career.html">Career</a></li>
+
+        
+      </ul>
+    </article>
+    <article class="footer-link-containner">
+      <h5>Products</h5>
+      <ul class="footer-links">
+        <li><a href="#">CRM</a></li>
+        <li><a href="#">Help Desk</a></li>
+        <li><a href="#">Workplace</a></li>
+        <li><a href="#">Analytics</a></li>
+
+        
+      </ul>
+    </article>
+    <article class="footer-link-containner">
+      <h5>Support</h5>
+      <ul class="footer-links">
+        <li><a href="price.html#FAQ">FAQ</a></li>
+        <li><a href="contactUs.html">Contact</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms ＆ Conditions</a></li>
+      </ul>
+    </article>
+    <article class="footer-link-containner">
+      <a href="#"class="company-logo"><img src="Asset/bigspring.webp" alt="company logo"></a>
+      
+      <p>Lorem ipsum dolor sit amet, consectetur elit consjat tristique eget amet.</p>
+      <div class="social-container">
+        <div class="logo-cirle">
+          <a href="#"><i class='bx bxl-facebook-circle' ></i></a>
+        </div>
+        <div class="logo-cirle">
+          <a href="#"><i class='bx bxl-twitter' ></i></a>
+          
+        </div>
+        <div class="logo-cirle">
+          <a href="#"><i class='bx bxl-instagram' ></i></a>
+          
+        </div>
+        <div class="logo-cirle">
+          <a href="#"><i class='bx bxl-github'></i></a>
+          
+        </div>
+        <div class="logo-cirle">
+          <a href="#"><i class='bx bxl-linkedin-square' ></i></a>
+         
+        </div>
+      </div>
+    </article>
+  </section>
+  <p class="copyright-text">Copyright by your company | Theme by <a href="#">GetHugoThemes</a>
+    </p>
+</footer>
+    <!-- js -->
+    <script src="js/app.js"></script>
+    <script src="js/how-it-works.js"></script>
+  </body>
+</html>

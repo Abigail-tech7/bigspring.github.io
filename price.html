@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bigspring</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- font -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <!-- ----------------------- header--------------------------- -->
+    <header>
+        <div class="nav-containner">
+          <!-- -------------------navigation bar ---------------- -->
+          <nav class="top-bar flex">
+            <!-- <div class ="flex-row"></div> -->
+            <!-- logo  -->
+            <div class="logo-container flex">
+              <a href="#"><img src="Asset/bigspring.webp" alt="logo" /></a>
+              <div class="sub-menuTopBar flex">
+                <!-- language menu -->
+                <select name="Language" id="lang">
+                  <option value="English" selected>EN</option>
+                  <option value="France">FR</option>
+                  <option value="Chainess">CN</option>
+                </select>
+                <!-- menu -->
+                <div class="menu-containner"><i class="bx bx-menu"></i></div>
+                <!-- mode btn -->
+                <div class="mode-btn"><i class="bx bx-moon"></i></div>
+              </div>
+            </div>
+            <div class="main-menuContainer">
+              <ul class="menuLinks-container">
+                <li class="menuLink">
+                  <a href="index.html" class="link">Home</a>
+                </li>
+  
+                <li class="menuLink">
+                  <a href="#" class="link"
+                    >Company<i class="bx bx-chevron-down"></i
+                  ></a>
+                  <ul class="subMenuLinks hidden">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="#">How It Works</a></li>
+                    <li><a href="career.html">Career</a></li>
+                  </ul>
+                </li>
+  
+                <li class="menuLink">
+                  <a href="#" class="link">
+                    Products <i class="bx bx-chevron-down"></i
+                  ></a>
+                  <ul class="subMenuLinks hidden">
+                    <li>
+                      <a href="#" class="produtslink crm">
+                        <div class="icon"><i class="bx bxs-group"></i></div>
+                        <div class="info">
+                          <p class="productName">CRM</p>
+                          <p class="productInfo">
+                            convert leads and close sales deals faster
+                          </p>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="produtslink help-desk">
+                        <div class="icon"><i class="bx bxs-cube-alt"></i></div>
+                        <div class="info">
+                          <p class="productName">Help Desk</p>
+                          <p class="productInfo">
+                            convert leads and close sales deals faster
+                          </p>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="produtslink work-place">
+                        <div class="icon">
+                          <i class="bx bxs-briefcase-alt-2"></i>
+                        </div>
+                        <div class="info">
+                          <p class="productName">Workplace</p>
+                          <p class="productInfo">
+                            Application built to improve productivity
+                          </p>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="produtslink analytic">
+                        <div class="icon"><i class="bx bx-line-chart"></i></div>
+                        <div class="info">
+                          <p class="productName">Analytics</p>
+                          <p class="productInfo">
+                            Create custom reposts from any data set.
+                          </p>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="produtslink">
+                        <div class="icon arrow">
+                          <i class="bx bx-right-arrow-alt"></i>
+                        </div>
+                        <p class="productName">View all Product</p>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+  
+                <li class="menuLink">
+                  <a href="#" class="link active"
+                    >Price</a>
+                 
+                </li>
+  
+                <li class="menuLink">
+                  <a href="contactUs.html" class="link">Contact</a>
+                </li>
+              </ul>
+              <div class="flex">
+                <select name="Language" id="lang" class="hidden">
+                  <option value="English" selected>EN</option>
+                  <option value="France">FR</option>
+                  <option value="Chainess">CN</option>
+                </select>
+                <button class="demoBtn">Get a Demo</button>
+                <div class="mode-btn hidden btn"><i class="bx bx-moon"></i></div>
+              </div>
+            </div>
+          </nav>
+          <!-- *-------------------navigation bar ----------------* -->
+        </div>
+      </header>
+      <!-- *----------------------- header end---------------------------* -->
+      <!-- *----------------------------main------------------------------- -->
+   <main>
+     <!-- top section -->
+     <section class="aboutTeamTop top-section">
+      <h1>Pricing</h1>
+      <p>Everything you need for best in class service</p>
+  </section>
+  <section class="pricesContainer">
+    <section class="priceSection">
+      <article class="basicPlan priceCard">
+        <h3>Basic Plan</h3>
+        <p><span class="currency">$</span><span class="basicPrice">0</span>/month</p>
+        <p class="planFor">Best For Small Individuals</p>
+        <ul class="seriviceCovered">
+          <li>Express Service</li>
+          <li>Customs Clearance</li>
+          <li>Time-Critical Services</li>
+        </ul>
+        <a href="#" class="startFreeBtn">Get Started for Free</a>
+      </article>
+      <article class="proPlan priceCard">
+        <h3>Professional Plan</h3>
+        <p><span class="currency">$</span><span class="basicPrice">49</span>/month</p>
+        <p class="planFor">Best For Professionals</p>
+        <ul class="seriviceCovered">
+          <li>Express Service</li>
+          <li>Customs Clearance</li>
+          <li>Time-Critical Services</li>
+          <li>Cloud Service</li>
+          <li>Best Dashboard</li>
+        </ul>
+        <a href="#" class="startBtn btns">Get Started</a>
+      </article>
+      <article class="bussinessPlan priceCard">
+        <h3>Business Plan</h3>
+        <p><span class="currency">$</span><span class="basicPrice">199</span>/month</p>
+        <p class="planFor">Best For Large Individuals</p>
+        <ul class="seriviceCovered">
+          <li>Express Service</li>
+          <li>Customs Clearance</li>
+          <li>Time-Critical Services</li>
+        </ul>
+        <a href="#" class="startFreeBtn">Get Started</a>
+      </article>
+    </section>
+  </section>
+  <section id="FAQ">
+    <section class="FAQTop top-section">
+      <h1>Frequently Asked Questions</h1>
+      <p>Vestibulum ante ipsum primis in faucibus orci luctus ultrices posuere cubilia Curae Donec</p>
+  </section>
+  <section class="AllFAQTab">
+    <article class="FAQtab">
+      <div class="FAQTitleContainner"><p>How to change my billing information?</p><i class='bx bx-chevron-down'></i></div>
+      <div class="FAQANSContainner">
+        <p>You will be able to manage all projects through the platform. Once you insert your details and availability on the platform, you will be automatically assigned photoshoots when the place/date/time coincide with your data. All you’ll have to do is “accept” or “reject” the assignments before they expire, as well as their terms & conditions, and turn up at the given address on the right date/time. In addition, all updates and changes will be communicated through notifications on the platform.</p>
+      </div>
+    </article>
+    <article class="FAQtab">
+      <div class="FAQTitleContainner"><p>Can i Use Bigspring with cloud documents?</p><i class='bx bx-chevron-down'></i></div>
+      <div class="FAQANSContainner">
+        <p>The Service is provided for free during this pilot project, and is provided “as is” with is not committed to any level of service or availability of the Service. <br>
+          <br>
+          A further If you enter into this agreement on behalf of a company, you hereby agree that the company is responsible under this Agreement for all actions and omissions</p>
+      </div>
+    </article>
+    <article class="FAQtab">
+      <div class="FAQTitleContainner"><p>If i cancel, can i archive my designs to keep them safe?</p><i class='bx bx-chevron-down'></i></div>
+      <div class="FAQANSContainner">
+        <p>A team of photography experts at will analyze your test and give you feedback and your results. <br>
+          <br>
+          We don’t hand out grades like you would on a high school exam. Your test will either be accepted or rejected. In other words, you’ll either get a “passing grade” or you won’t.</p>
+      </div>
+    </article>
+    <article class="FAQtab">
+      <div class="FAQTitleContainner"><p>How can i adjust user permission ＆ admin provileges?</p><i class='bx bx-chevron-down'></i></div>
+      <div class="FAQANSContainner">
+        <p>We allows you to concentrate on snapping the pictures, while we take care of everything else. The platform automatically assigns photoshoots to you, depending on your availability, and allows you to upload all your work on it after completion. No muss no fuss!</p>
+      </div>
+    </article>
+  </section>
+  <section class="priceContactContainer">
+    <img src="https://demo.gethugothemes.com/bigspring/site/images/vector.svg" alt="">
+    <div class="priceContact">
+      <h3>Need a larger plan?</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur.</p>
+     <!-- <button class="btns">Contact Us</button> -->
+      <a href="contactUs.html" class="pricebtn btns">Contact Us</a>
+    </div>
+  </section>
+  </section>
+   </main>  
+    <!--  --------------------------------Footer-------------------------------  -->
+    <footer>
+      <section class="footer">
+        <article class="footer-link-containner">
+          <h5>Company</h5>
+          <ul class="footer-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="how-it-works.html">How It Works</a></li>
+            <li><a href="career.html">Career</a></li>
+
+            
+          </ul>
+        </article>
+        <article class="footer-link-containner">
+          <h5>Products</h5>
+          <ul class="footer-links">
+            <li><a href="#">CRM</a></li>
+            <li><a href="#">Help Desk</a></li>
+            <li><a href="#">Workplace</a></li>
+            <li><a href="#">Analytics</a></li>
+
+            
+          </ul>
+        </article>
+        <article class="footer-link-containner">
+          <h5>Support</h5>
+          <ul class="footer-links">
+            <li><a href="#FAQ">FAQ</a></li>
+            <li><a href="contactUs.html">Contact</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms ＆ Conditions</a></li>
+          </ul>
+        </article>
+        <article class="footer-link-containner">
+          <a href="#"class="company-logo"><img src="Asset/bigspring.webp" alt="company logo"></a>
+          
+          <p>Lorem ipsum dolor sit amet, consectetur elit consjat tristique eget amet.</p>
+          <div class="social-container">
+            <div class="logo-cirle">
+              <a href="#"><i class='bx bxl-facebook-circle' ></i></a>
+            </div>
+            <div class="logo-cirle">
+              <a href="#"><i class='bx bxl-twitter' ></i></a>
+              
+            </div>
+            <div class="logo-cirle">
+              <a href="#"><i class='bx bxl-instagram' ></i></a>
+              
+            </div>
+            <div class="logo-cirle">
+              <a href="#"><i class='bx bxl-github'></i></a>
+              
+            </div>
+            <div class="logo-cirle">
+              <a href="#"><i class='bx bxl-linkedin-square' ></i></a>
+             
+            </div>
+          </div>
+        </article>
+      </section>
+      <p class="copyright-text">Copyright by your company | Theme by <a href="#">GetHugoThemes</a>
+        </p>
+    </footer>
+   <!-- js link -->
+   <script src="js/app.js"></script>
+   <script src="js/price.js"></script>
+</body>
+</html>
